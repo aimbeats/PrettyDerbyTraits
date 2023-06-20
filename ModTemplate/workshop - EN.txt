@@ -1,0 +1,34 @@
+version=1
+id=2962605807
+title=赛马娘特质(PrettyDerby Traits)
+description=总是在想有了赛马娘的衣服，为什么没有赛马娘的特质呢？于是便有了自己做个的想法。
+description=第一次做僵毁mod，还是有很多功能都没能实现，后续的话再慢慢补上，没有怎么测试过。
+description=
+description=以下大部分能力受饱食值影响，类似饥荒的大力士，饱食度和耐力分四个等级
+description=
+description=·个人负重大幅提高，耐力恢复快，耐力值越低恢复也会越快
+description=（每分钟恢复速度=0.05 * 耐力等级 * 饱食度等级 * 沙盒设置的耐力恢复倍率）
+description=
+description=·使用近战武器的时候伤害和暴击大幅提高,必定击退,但是也更容易造成武器损坏
+description=（当前额外伤害计算=武器攻击力 * 沙盒设置的攻击倍率 * 饱食度等级 * 0.1
+description=（攻击有1/3几率触发一次额外武器损坏，-0.5的耐久）
+description=
+description=·踩踏伤害巨幅提高
+description=（伤害=正常伤害*2*饱食度等级）
+description=
+description=·慢跑和冲刺速度大幅提高，但是耐力消耗更高
+description=（最高饱食度有1.5倍的速度，最低饱食度是1.2倍）
+description=
+description=·食欲旺盛，卡路里和饥饿掉的速度快
+description=（饱食度越高，饿的越快）
+description=
+description=各位如果有好的想法或者改动可以说说，老实说目前有点不知所措该怎么改
+description=
+description=目前新增了沙盒设置修改，可以修改攻击倍率（调到100能直接推死）、武器额外损坏的倍率、饥饿速度、耐力恢复速度（最高基本不炸肺）
+description=
+description=参考（其实很多都是直接粘贴过来改改数据就能用的）了很多mod，非常感谢各位大佬，如果有遗漏的见谅提醒我一下我会写上去的。
+description=
+description=https://steamcommunity.com/sharedfiles/filedetails/?id=1299328280 更多特质
+description=https://steamcommunity.com/sharedfiles/filedetails/?id=2890112851 僵尸可撞倒
+tags=Traits
+visibility=public
