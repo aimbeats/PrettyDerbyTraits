@@ -1,0 +1,5 @@
+UI_CN = {
+                UI_trait_PrettyDerbyTraits = "赛马娘",
+                UI_trait_PrettyDerbyTraitsdesc = "为了梦想奔跑吧~<br>个人负重大幅提高，耐力恢复快<br>使用近战武器的时候伤害和暴击大幅提高,必定击退,但是也更容易造成武器损坏<br>踩踏伤害巨幅提高<br>慢跑和冲刺速度大幅提高，但是耐力消耗更高<br>食欲旺盛",
+           
+}

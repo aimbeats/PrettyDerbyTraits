@@ -1,0 +1,14 @@
+Sandbox_CN = {
+    Sandbox_PrettyDerbyTraits = "赛马娘特质",
+    Sandbox_PrettyDerby_damage = "攻击倍率",
+    Sandbox_PrettyDerby_breakage = "武器损坏倍率",
+    Sandbox_PrettyDerby_hunger = "饥饿速度",
+    Sandbox_PrettyDerby_hunger_option1 = "正常人",
+    Sandbox_PrettyDerby_hunger_option2 = "设定马娘",
+    Sandbox_PrettyDerby_hunger_option3 = "小栗帽(大胃口)",
+    Sandbox_PrettyDerby_endurance = "耐力恢复速度",
+    Sandbox_PrettyDerby_endurance_option1 = "正常人",
+    Sandbox_PrettyDerby_endurance_option2 = "设定马娘",
+    Sandbox_PrettyDerby_endurance_option3 = "深呼吸(快速恢复)",
+    Sandbox_PrettyDerby_endurance_option4 = "圆弧的艺术家(极快恢复)",
+}

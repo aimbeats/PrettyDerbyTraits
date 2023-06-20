@@ -1,0 +1,38 @@
+VERSION = 1,
+
+option PrettyDerby_damage
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 1,
+    page = PrettyDerbyTraits,
+    translation = PrettyDerby_damage,
+}
+option PrettyDerby_breakage
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 1,
+    page = PrettyDerbyTraits,
+    translation = PrettyDerby_breakage,
+}
+option PrettyDerby_hunger
+{
+    type = enum,
+    numValues = 3,
+    default = 2,
+    page = PrettyDerbyTraits,
+    translation = PrettyDerby_hunger,
+    valueTranslation = PrettyDerby_hunger,
+}
+option PrettyDerby_endurance
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = PrettyDerbyTraits,
+    translation = PrettyDerby_endurance,
+    valueTranslation = PrettyDerby_endurance,
+}

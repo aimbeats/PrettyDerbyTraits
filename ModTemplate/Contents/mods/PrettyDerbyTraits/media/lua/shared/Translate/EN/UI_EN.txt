@@ -1,0 +1,4 @@
+UI_EN = {
+                UI_trait_PrettyDerbyTraits = "Pretty Derby",
+                UI_trait_PrettyDerbyTraitsdesc = "Run for your dreams~<br>Personal weight greatly improved, endurance recovery fast<br>When using melee weapons, the damage and critical hits are greatly increased, which will definitely repel, but it is also more likely to damage the weapon<br>Hearty Appetite",         
+}
