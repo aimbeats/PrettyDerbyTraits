@@ -1,34 +1,48 @@
 version=1
 id=2962605807
-title=ÈüÂíÄïÌØÖÊ(PrettyDerby Traits)
-description=×ÜÊÇÔÚÏëÓĞÁËÈüÂíÄïµÄÒÂ·ş£¬ÎªÊ²Ã´Ã»ÓĞÈüÂíÄïµÄÌØÖÊÄØ£¿ÓÚÊÇ±ãÓĞÁË×Ô¼º×ö¸öµÄÏë·¨¡£
-description=µÚÒ»´Î×ö½©»Ùmod£¬»¹ÊÇÓĞºÜ¶à¹¦ÄÜ¶¼Ã»ÄÜÊµÏÖ£¬ºóĞøµÄ»°ÔÙÂıÂı²¹ÉÏ£¬Ã»ÓĞÔõÃ´²âÊÔ¹ı¡£
+title=PrettyDerby Traits
+description=I've been wondering, we got Umaboid already but we ain't got any Traits.
+description=So I've decided to do the favor.
+description=It's my first try at modding Project Zomboid,
+description=more features are in progress but not all of 'em finished.
+description=I haven't done a lot of testing, feedbacks would be appceriated
 description=
-description=ÒÔÏÂ´ó²¿·ÖÄÜÁ¦ÊÜ±¥Ê³ÖµÓ°Ïì£¬ÀàËÆ¼¢»ÄµÄ´óÁ¦Ê¿£¬±¥Ê³¶ÈºÍÄÍÁ¦·ÖËÄ¸öµÈ¼¶
+description=Abilities in this mod are affected by your hunger state
+description=Goes with the similar idea of the character Wolfgang in "Don't Starve"
+description=And there's four different states on Hunger/Endurance
 description=
-description=¡¤¸öÈË¸ºÖØ´ó·ùÌá¸ß£¬ÄÍÁ¦»Ö¸´¿ì£¬ÄÍÁ¦ÖµÔ½µÍ»Ö¸´Ò²»áÔ½¿ì
-description=£¨Ã¿·ÖÖÓ»Ö¸´ËÙ¶È=0.05 * ÄÍÁ¦µÈ¼¶ * ±¥Ê³¶ÈµÈ¼¶ * É³ºĞÉèÖÃµÄÄÍÁ¦»Ö¸´±¶ÂÊ£©
 description=
-description=¡¤Ê¹ÓÃ½üÕ½ÎäÆ÷µÄÊ±ºòÉËº¦ºÍ±©»÷´ó·ùÌá¸ß,±Ø¶¨»÷ÍË,µ«ÊÇÒ²¸üÈİÒ×Ôì³ÉÎäÆ÷Ëğ»µ
-description=£¨µ±Ç°¶îÍâÉËº¦¼ÆËã=ÎäÆ÷¹¥»÷Á¦ * É³ºĞÉèÖÃµÄ¹¥»÷±¶ÂÊ * ±¥Ê³¶ÈµÈ¼¶ * 0.1
-description=£¨¹¥»÷ÓĞ1/3¼¸ÂÊ´¥·¢Ò»´Î¶îÍâÎäÆ÷Ëğ»µ£¬-0.5µÄÄÍ¾Ã£©
+description=Â·You gain more Carryable Weight, also a faster Endurance Recovery time, the worse the exertion, the faster the recovery
+description=(Recovery Per Minute=0.05*EnduranceLvL*HungerLvL*EnduranceRegenerationLVL)
 description=
-description=¡¤²ÈÌ¤ÉËº¦¾Ş·ùÌá¸ß
-description=£¨ÉËº¦=Õı³£ÉËº¦*2*±¥Ê³¶ÈµÈ¼¶£©
 description=
-description=¡¤ÂıÅÜºÍ³å´ÌËÙ¶È´ó·ùÌá¸ß£¬µ«ÊÇÄÍÁ¦ÏûºÄ¸ü¸ß
-description=£¨×î¸ß±¥Ê³¶ÈÓĞ1.5±¶µÄËÙ¶È£¬×îµÍ±¥Ê³¶ÈÊÇ1.2±¶£©
+description=Â·You'll cause more damage, and a higher critical chance using melee weapons
+description=Every hit will likely trigger a knockback, all of those means you'll drain its durability quickly
+description=(AdditionalDMG=DMG*DMGMultiplier*HungerLvL*0.1)
+description=(You have 1/3 of chance of triggering another durability event, each cost 0.5 durability)
 description=
-description=¡¤Ê³ÓûÍúÊ¢£¬¿¨Â·ÀïºÍ¼¢¶öµôµÄËÙ¶È¿ì
-description=£¨±¥Ê³¶ÈÔ½¸ß£¬¶öµÄÔ½¿ì£©
+description=Â·Heavily increases your Stomp Damage 
+description=(DMG=BaselineDMG*2*HungerLvL)
 description=
-description=¸÷Î»Èç¹ûÓĞºÃµÄÏë·¨»òÕß¸Ä¶¯¿ÉÒÔËµËµ£¬ÀÏÊµËµÄ¿Ç°ÓĞµã²»ÖªËù´ë¸ÃÔõÃ´¸Ä
+description=Â·Heavily increases your Running and Sprinting speed sacrificing your Fatigue
+description=(You'll gain 1.5x speed under "Full to Bursting"/1.2x under "Starving")
 description=
-description=Ä¿Ç°ĞÂÔöÁËÉ³ºĞÉèÖÃĞŞ¸Ä£¬¿ÉÒÔĞŞ¸Ä¹¥»÷±¶ÂÊ£¨µ÷µ½100ÄÜÖ±½ÓÍÆËÀ£©¡¢ÎäÆ÷¶îÍâËğ»µµÄ±¶ÂÊ¡¢¼¢¶öËÙ¶È¡¢ÄÍÁ¦»Ö¸´ËÙ¶È£¨×î¸ß»ù±¾²»Õ¨·Î£©
+description=Â·Really Hearty Appetite
+description=This can drain down your calories quickly, meaning more food is needed
+description=(Your stummy empties quicker when it's full)
 description=
-description=²Î¿¼£¨ÆäÊµºÜ¶à¶¼ÊÇÖ±½ÓÕ³Ìù¹ıÀ´¸Ä¸ÄÊı¾İ¾ÍÄÜÓÃµÄ£©ÁËºÜ¶àmod£¬·Ç³£¸ĞĞ»¸÷Î»´óÀĞ£¬Èç¹ûÓĞÒÅÂ©µÄ¼ûÁÂÌáĞÑÎÒÒ»ÏÂÎÒ»áĞ´ÉÏÈ¥µÄ¡£
 description=
-description=https://steamcommunity.com/sharedfiles/filedetails/?id=1299328280 ¸ü¶àÌØÖÊ
-description=https://steamcommunity.com/sharedfiles/filedetails/?id=2890112851 ½©Ê¬¿É×²µ¹
+description=Suggestions would be wonderful, honestly, I'm kind of running dry at this point
+description=
+description=The latest Update includes sandbox setting for you to customize your experience
+description=Damage Multiplier(100 can make you bash a zombo to death)
+description=Durability Multiplier/Hunger Level
+description=And Endurance Recovery Level(You'll barely get Exhausted when set to Arc Maestro)
+description=
+description=Code References
+description=This mod utilizes codes from other mods using the art of copy&paste, thanks all of you for writing those codes, let me know if I missed your credit!
+description=
+description=https://steamcommunity.com/sharedfiles/filedetails/?id=1299328280 More Traits|æ›´å¤šç‰¹è´¨
+description=https://steamcommunity.com/sharedfiles/filedetails/?id=2890112851 Knock Over Zombie|åƒµå°¸å¯æ’å€’
 tags=Traits
 visibility=public
