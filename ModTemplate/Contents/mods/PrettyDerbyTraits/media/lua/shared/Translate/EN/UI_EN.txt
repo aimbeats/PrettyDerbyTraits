@@ -1,4 +1,4 @@
 UI_EN = {
                 UI_trait_PrettyDerbyTraits = "Pretty Derby",
-                UI_trait_PrettyDerbyTraitsdesc = "Run for your dreams~<br>Personal weight greatly improved, endurance recovery fast<br>When using melee weapons, the damage and critical hits are greatly increased, which will definitely repel, but it is also more likely to damage the weapon<br>Hearty Appetite",         
+                UI_trait_PrettyDerbyTraitsdesc = "Run Towards Your Dreams~<br>~You gain more Carryable Weight<br>~Faster Endurance Recovery<br>~Melee Damage +++<br>~Melee Critical Chance +++<br>~100% Melee Knockback<br>~Stomp Damage +++<br>Running and Sprinting Speed +++<br>Hearty Appetite<br><br>*Melees are more likely to break<br>*Costing more Fatigue",         
 }
